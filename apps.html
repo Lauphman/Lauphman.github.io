@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apps</title>
+    <link rel="stylesheet" href="apps.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <ul class="nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="apps.html">App</a></li>
+            <li><a href="resume.html">Resume</a></li>
+        </ul>
+
+        <div class="title">
+            <h1>Rock Paper Scissors</h1>
+        </div>
+
+        <section class="game">
+
+            <div class="score">
+                <div class="playerScore">
+                    <h2>Player</h2>
+                    <p class="p-count count">0</p>
+
+                </div>
+                <div class="computerScore">
+                    <h2>Computer</h2>
+                    <p class="c-count count">0</p>
+
+                </div>
+            </div>
+
+            <div class="move">Choose your move</div>
+
+            <div class="movesleft">Moves Left: 10 </div>
+
+            <div class="options">
+                <button class="rock"><img src="rock.png" width="100px"><p>ROCK</p></button>
+                <button class="paper"><img src="paper.png" width="90px"><p>PAPER</p></button>
+                <button class="scissor"><img src="scissors.png" width="100px"><p>SCISSORS</p></button>
+            </div>
+
+            <div class="result"></div>
+
+            <button class="reload"></button>
+
+        </section>
+
+        <script src="game.js"></script>
+
+        <div class="footer">
+            <svg class="waves" width="100%" height="150" viewBox="0 20 200 28" preserveAspectRatio="none" shape-rendering="auto">
+                <defs>
+                    <path id="gentle-wave"
+                        d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+                </defs>
+                <g class="parallax">
+                    <use xlink:href="#gentle-wave" x="48" y="0" fill="#e4ccae" />
+                    <use xlink:href="#gentle-wave" x="48" y="3" fill="#b6a38b" />
+                    <use xlink:href="#gentle-wave" x="48" y="5" fill="#887a68" />
+                    <use xlink:href="#gentle-wave" x="48" y="7" fill="#555555" />
+                </g>
+            </svg>
+        </div>
+
+    </div>
+</body>
+
+</html>
